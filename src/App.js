@@ -1,9 +1,10 @@
-import './App.css';
+import { AppContainer } from './components/app-styles/App.styles';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <AppContainer>
+      <img src={process.env.PUBLIC_URL + '/images/psm_dashboard_overlay.png'} alt='dashboard-overlay' width='50%' height='50%' />
+    </AppContainer>
   );
 }
 
