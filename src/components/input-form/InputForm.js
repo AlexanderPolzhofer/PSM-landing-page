@@ -16,6 +16,9 @@ function InputForm() {
                 rows={5}
                 placeholder='Ihre Mitteilung'
             />
+            <button onClick={(e) => { e.preventDefault(); alert('E-Mail senden') }}>
+                E-Mail senden
+            </button>
         </InputFormContainer>);
 };
 
