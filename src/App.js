@@ -7,10 +7,12 @@ import {
 } from './components/app-styles/App.styles';
 import InputForm from './components/input-form/InputForm';
 import Card from './components/card-component/Card.component';
+import Header from './components/header/Header.component';
 
 function App() {
   return (
     <AppContainer>
+      <Header/>
       <InputAndImageSection>
         <TextElement>
           <Heading>

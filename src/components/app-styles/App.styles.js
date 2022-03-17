@@ -68,3 +68,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 `;
+
+export const HeaderStyles = styled.section`
+padding: 13px;
+`;
