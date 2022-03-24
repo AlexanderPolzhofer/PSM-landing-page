@@ -5,6 +5,7 @@ import styles from './App.module.css';
 import AppContainer from './components/AppContainer/AppContainer';
 import ContentInfo from './components/content-info/ContentInfo';
 import Card from './components/card-component/Card';
+import Accordion from './components/accordion/Accordion';
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
       <ContentInfo />
       <Card />
       <Card />
+      <Accordion />
     </AppContainer>
   )
 }
