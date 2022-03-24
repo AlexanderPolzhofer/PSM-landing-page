@@ -4,6 +4,7 @@ import styles from './App.module.css';
 
 import AppContainer from './components/AppContainer/AppContainer';
 import ContentInfo from './components/content-info/ContentInfo';
+import Card from './components/card-component/Card';
 
 export default function App() {
   return (
@@ -37,7 +38,7 @@ export default function App() {
               placeholder='Was möchten Sie uns mitteilen?'>
             </textarea>
           </div>
-          <button type="button" class="btn btn-success">Nachricht senden</button>
+          <button type="button" className="btn btn-success">Nachricht senden</button>
         </div>
         <img
           src={process.env.PUBLIC_URL + '/images/psm_dashboard_overlay.png'}
@@ -47,6 +48,8 @@ export default function App() {
           width='50%' />
       </div>
       <ContentInfo />
+      <Card />
+      <Card />
     </AppContainer>
   )
 }
