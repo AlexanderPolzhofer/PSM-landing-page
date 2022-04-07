@@ -1,0 +1,14 @@
+{
+    "card-list": [
+        {
+            "title" : "Kundenmanagement",
+            "descripition" : "Kundenverwaltung, jederzeit und von überall. Sie können Kunden hinzufügen, Löschen oder bearbeiten. Mit unsere API welche Sie auf Ihrer Homepage einbinden können, ist die Registrierung Ihrer Kunden Kinder einfach.",
+            "image" : "/public/images/addClient_clientInfo_overlay.png"
+        },
+        {
+            "title" : "Pakete Verwalten",
+            "descripition" : "",
+            "image" : "/public/images/addClient_clientInfo_overlay.png"
+        }
+    ]
+}
