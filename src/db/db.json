@@ -37,32 +37,27 @@
         {
             "id" : 1,
             "question" : "Wie hoch sind die Kosten?",
-            "answer" : ""
+            "answer" : "Die kosten für die Anwendung können Sie in dieser Preistabelle entnehmen"
         },
         {
             "id" : 2,
             "question" : "Auf welchen Geräte kann ich die Applikation nutzen?",
-            "answer" : ""
+            "answer" : "Die Anwendung funktioniert mit allen Geräte welche einen Internet Browser hat. PC, Tablet, Smartphone. Theoretisch wenn Ihr Kühlschrank einen Browser hat, kann man auch diesen verwenden."
         },
         {
             "id" : 3,
             "question" : "Funktionieren Barcode Scanner?",
-            "answer" : ""
+            "answer" : "Alle gängigen Barcode Scanner sind kompatibel."
         },
         {
             "id" : 4,
             "question" : "Ich habe eine lange Liste an Kunden, muss ich jeden einzelnen selbst eintragen?",
-            "answer" : ""
+            "answer" : "Ihr Kundenstamm können wir schnell und einfach einpflegen. Durch einen automatisierten Datei-Upload."
         },
         {
             "id" : 5,
             "question" : "Kann ich mein monatlicher Umsatz anzeigen lassen?",
-            "answer" : ""
-        },
-        {
-            "id" : 7,
-            "question" : "",
-            "answer" : ""
+            "answer" : "Die Anwendung hat einen Auswertungsbereich und können nach Kunden und Umsatz in dem von Ihnen ausgewählten Zeitraum anzeigen und Drucken lassen."
         }
     ]
 }
