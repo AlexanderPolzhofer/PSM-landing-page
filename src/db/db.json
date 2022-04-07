@@ -1,14 +1,65 @@
 {
+    "logo" : "/public/images/logo.png",
+    "Contact" : {
+        "Telefon": "+43 699 144 6 4747",
+        "email" : "info@paketshop-manager.eu"
+    },
     "card-list": [
         {
+            "id" : 1,
             "title" : "Kundenmanagement",
             "descripition" : "Kundenverwaltung, jederzeit und von überall. Sie können Kunden hinzufügen, Löschen oder bearbeiten. Mit unsere API welche Sie auf Ihrer Homepage einbinden können, ist die Registrierung Ihrer Kunden Kinder einfach.",
             "image" : "/public/images/addClient_clientInfo_overlay.png"
         },
         {
+            "id" : 2,
             "title" : "Pakete Verwalten",
-            "descripition" : "",
-            "image" : "/public/images/addClient_clientInfo_overlay.png"
+            "descripition" : "Ihre Pakete unter unter vollständiger Kontrolle. Verwalten Sie die Pakete Ihrer Kunden einfach und schnell Geräte unabhängig am PC, Tablet oder Smartphone. Ihr Handscanner kann an Ihr Tablet oder Smartphone angeschlossen werden und so verwendet werden wie am PC.",
+            "image" : "/public/images/psm_add_paket.jpg"
+        },
+        {
+            "id" : 3,
+            "title" : "Guthaben System",
+            "descripition" : "Durch die Aktivierung des Guthaben Systems, erhalten Ihre Kunden einen zusätzlichen Service. Automatische Berechnung des Guthabens für Ihre Kunden. Bei hinzufügen und abbuchen des Guthabens, werden Ihre Kunden automatisch per E-Mail benachrichtigt und Sie haben auch die Möglichkeit den Beleg dafür jederzeit zu Drucken.",
+            "image" : "/public/images/psm_guthaben_hinzufügen.jpg"
+        },
+        {
+            "id" : 4,
+            "title" : "Stammkundenrabatt",
+            "descripition" : "Sie können Ihrer Kunden Rabatt gewähren, nach einer bestimmten Anzahl an Pakete die Ihr Kunde bei Ihnen hatte.",
+            "image" : "/public/images/psm_konto_einstellungen.jpg"
+        }
+    ],
+    "faq" : [
+        {
+            "id" : 1,
+            "question" : "Wie hoch sind die Kosten?",
+            "answer" : ""
+        },
+        {
+            "id" : 2,
+            "question" : "Auf welchen Geräte kann ich die Applikation nutzen?",
+            "answer" : ""
+        },
+        {
+            "id" : 3,
+            "question" : "Funktionieren Barcode Scanner?",
+            "answer" : ""
+        },
+        {
+            "id" : 4,
+            "question" : "Ich habe eine lange Liste an Kunden, muss ich jeden einzelnen selbst eintragen?",
+            "answer" : ""
+        },
+        {
+            "id" : 5,
+            "question" : "Kann ich mein monatlicher Umsatz anzeigen lassen?",
+            "answer" : ""
+        },
+        {
+            "id" : 7,
+            "question" : "Auf welchen Geräte kann ich die Applikation nutzen?",
+            "answer" : ""
         }
     ]
 }
