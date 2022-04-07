@@ -1,7 +1,10 @@
 {
     "logo" : "/public/images/logo.png",
-    "Contact" : {
-        "Telefon": "+43 699 144 6 4747",
+    "title" : "Paketshop Manager Web",
+    "app-description" : "Die Lösung für Ihren Paketshop, Pakete- und Kundenverwaltung",
+    "app-description-main" : "Paketshop Manager ist einfach zu verwenden. Sie müssen nichts auf Ihrem Computer, Tablet oder Smartphone installieren, rufen sie einfach die Login Seite auf und loggen Sie sich mit Ihrer E-Mail-Adresse ein, und schon können Sie los starten.",
+    "contact" : {
+        "Telefon": "+43 699 00 0 0000",
         "email" : "info@paketshop-manager.eu"
     },
     "card-list": [
