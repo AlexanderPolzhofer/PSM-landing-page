@@ -1,8 +1,14 @@
-import React from 'react';
+import Card from "../card-component/Card";
 
-export default function CardList() {
+const CardList = ({ cardList }) => {
 
-    return (
-        <div></div>
-    )
+    return (<div>
+        {cardList.map(listItem =>
+            <Card
+                key={listItem.id}
+                listItem={listItem}
+            />)}
+    </div>)
 }
+
+export default CardList;

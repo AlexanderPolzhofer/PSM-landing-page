@@ -4,11 +4,17 @@ import styles from './App.module.css';
 
 import AppContainer from './components/AppContainer/AppContainer';
 import ContentInfo from './components/content-info/ContentInfo';
-import Card from './components/card-component/Card';
+
 import Accordion from './components/accordion/Accordion';
 import Footer from './components/footer/Footer';
+import CardList from './components/card-list/CardList';
+
+import DATA from './../src/db/db.json';
 
 export default function App() {
+
+
+
   return (
     <div>
       <AppContainer>
@@ -50,9 +56,8 @@ export default function App() {
             height='50%'
             width='50%' />
         </div>
-        <ContentInfo />
-        <Card />
-        <Card />
+        <ContentInfo info={DATA.info}/>
+        <CardList cardList={DATA.cardList}/>
         <Accordion />
       </AppContainer>
       <Footer />

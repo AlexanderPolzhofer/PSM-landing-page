@@ -1,63 +1,65 @@
 {
-    "logo" : "/public/images/logo.png",
-    "title" : "Paketshop Manager Web",
-    "app-description" : "Die Lösung für Ihren Paketshop, Pakete- und Kundenverwaltung",
-    "app-description-main" : "Paketshop Manager ist einfach zu verwenden. Sie müssen nichts auf Ihrem Computer, Tablet oder Smartphone installieren, rufen sie einfach die Login Seite auf und loggen Sie sich mit Ihrer E-Mail-Adresse ein, und schon können Sie los starten.",
-    "contact" : {
-        "Telefon": "+43 699 00 0 0000",
-        "email" : "info@paketshop-manager.eu"
-    },
-    "card-list": [
+    "info": [
         {
-            "id" : 1,
-            "title" : "Kundenmanagement",
-            "descripition" : "Kundenverwaltung, jederzeit und von überall. Sie können Kunden hinzufügen, Löschen oder bearbeiten. Mit unsere API welche Sie auf Ihrer Homepage einbinden können, ist die Registrierung Ihrer Kunden Kinder einfach.",
-            "image" : "/public/images/addClient_clientInfo_overlay.png"
-        },
-        {
-            "id" : 2,
-            "title" : "Pakete Verwalten",
-            "descripition" : "Ihre Pakete unter unter vollständiger Kontrolle. Verwalten Sie die Pakete Ihrer Kunden einfach und schnell Geräte unabhängig am PC, Tablet oder Smartphone. Ihr Handscanner kann an Ihr Tablet oder Smartphone angeschlossen werden und so verwendet werden wie am PC.",
-            "image" : "/public/images/psm_add_paket.jpg"
-        },
-        {
-            "id" : 3,
-            "title" : "Guthaben System",
-            "descripition" : "Durch die Aktivierung des Guthaben Systems, erhalten Ihre Kunden einen zusätzlichen Service. Automatische Berechnung des Guthabens für Ihre Kunden. Bei hinzufügen und abbuchen des Guthabens, werden Ihre Kunden automatisch per E-Mail benachrichtigt und Sie haben auch die Möglichkeit den Beleg dafür jederzeit zu Drucken.",
-            "image" : "/public/images/psm_guthaben_hinzufügen.jpg"
-        },
-        {
-            "id" : 4,
-            "title" : "Stammkundenrabatt",
-            "descripition" : "Sie können Ihrer Kunden Rabatt gewähren, nach einer bestimmten Anzahl an Pakete die Ihr Kunde bei Ihnen hatte.",
-            "image" : "/public/images/psm_konto_einstellungen.jpg"
+            "logo": "images/logo.png",
+            "title": "Paketshop Manager Web",
+            "appDescription": "Die Lösung für Ihren Paketshop, Pakete- und Kundenverwaltung",
+            "appDescriptionMain": "Paketshop Manager ist einfach zu verwenden. Sie müssen nichts auf Ihrem Computer, Tablet oder Smartphone installieren, rufen sie einfach die Login Seite auf und loggen Sie sich mit Ihrer E-Mail-Adresse ein, und schon können Sie loslegen.",
+            "Telefon": "+43 699 00 0 0000",
+            "email": "info@paketshop-manager.eu"
         }
     ],
-    "faq" : [
+    "cardList": [
         {
-            "id" : 1,
-            "question" : "Wie hoch sind die Kosten?",
-            "answer" : "Die kosten für die Anwendung können Sie in dieser Preistabelle entnehmen"
+            "id": 1,
+            "title": "Kundenmanagement",
+            "descripition": "Kundenverwaltung, jederzeit und von überall. Sie können Kunden hinzufügen, löschen oder bearbeiten. Mit unserer API, welche Sie auf Ihrer Homepage einbinden können, ist die Registrierung Ihrer Kunden kinderleicht.",
+            "image": "images/addClient_clientInfo_overlay.png"
         },
         {
-            "id" : 2,
-            "question" : "Auf welchen Geräte kann ich die Applikation nutzen?",
-            "answer" : "Die Anwendung funktioniert mit allen Geräte welche einen Internet Browser hat. PC, Tablet, Smartphone. Theoretisch wenn Ihr Kühlschrank einen Browser hat, kann man auch diesen verwenden."
+            "id": 2,
+            "title": "Pakete Verwalten",
+            "descripition": "Ihre Pakete unter vollständiger Kontrolle. Verwalten Sie die Pakete Ihrer Kunden einfach und schnell geräteunabhängig am PC, Tablet oder Smartphone. Ihr Handscanner kann an Ihr Tablet oder Smartphone angeschlossen werden und so verwendet werden wie am PC.",
+            "image": "images/psm_add_paket.jpg"
         },
         {
-            "id" : 3,
-            "question" : "Funktionieren Barcode Scanner?",
-            "answer" : "Alle gängigen Barcode Scanner sind kompatibel."
+            "id": 3,
+            "title": "Guthaben System",
+            "descripition": "Durch die Aktivierung des Guthabensystems, erhalten Ihre Kunden einen zusätzlichen Service. Automatische Berechnung des Guthabens für Ihre Kunden. Beim Hinzufügen und Abbuchen des Guthabens, werden Ihre Kunden automatisch per E-Mail benachrichtigt. Zusätzlich haben Sie die Möglichkeit den Beleg dafür jederzeit zu drucken.",
+            "image": "images/psm_guthaben_hinzufügen.jpg"
         },
         {
-            "id" : 4,
-            "question" : "Ich habe eine lange Liste an Kunden, muss ich jeden einzelnen selbst eintragen?",
-            "answer" : "Ihr Kundenstamm können wir schnell und einfach einpflegen. Durch einen automatisierten Datei-Upload."
+            "id": 4,
+            "title": "Stammkundenrabatt",
+            "descripition": "Sie können Ihren Kunden Rabatt gewähren, nach einer bestimmten Anzahl an Paketen die Ihre Kunden bei Ihnen hatten.",
+            "image": "images/psm_konto_einstellungen.jpg"
+        }
+    ],
+    "faq": [
+        {
+            "id": 1,
+            "question": "Wie hoch sind die Kosten?",
+            "answer": "Die kosten für die Anwendung können Sie in dieser Preistabelle entnehmen"
         },
         {
-            "id" : 5,
-            "question" : "Kann ich mein monatlicher Umsatz anzeigen lassen?",
-            "answer" : "Die Anwendung hat einen Auswertungsbereich und können nach Kunden und Umsatz in dem von Ihnen ausgewählten Zeitraum anzeigen und Drucken lassen."
+            "id": 2,
+            "question": "Auf welchen Geräte kann ich die Applikation nutzen?",
+            "answer": "Die Anwendung funktioniert mit allen Geräte welche einen Internet Browser hat. PC, Tablet, Smartphone. Theoretisch wenn Ihr Kühlschrank einen Browser hat, kann man auch diesen verwenden."
+        },
+        {
+            "id": 3,
+            "question": "Funktionieren Barcode Scanner?",
+            "answer": "Alle gängigen Barcode Scanner sind kompatibel."
+        },
+        {
+            "id": 4,
+            "question": "Ich habe eine lange Liste an Kunden, muss ich jeden einzelnen selbst eintragen?",
+            "answer": "Ihr Kundenstamm können wir schnell und einfach einpflegen. Durch einen automatisierten Datei-Upload."
+        },
+        {
+            "id": 5,
+            "question": "Kann ich mein monatlicher Umsatz anzeigen lassen?",
+            "answer": "Die Anwendung hat einen Auswertungsbereich und können nach Kunden und Umsatz in dem von Ihnen ausgewählten Zeitraum anzeigen und Drucken lassen."
         }
     ]
 }
