@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function AppContainer(props) {
+export default function AppContainer({ children }) {
 
-    const { children } = props;
+
     return (<div className="container-fluid">
         {children}
     </div>)
